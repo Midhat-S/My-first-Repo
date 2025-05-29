@@ -1,0 +1,17 @@
+# .replit
+
+run = "python Hello.py"
+modules = ["python-3.11"]
+
+[workflows]
+
+[[workflows.workflow]]
+name = "Run"
+author = 43217995
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python Hello.py"
+
+[nix]
