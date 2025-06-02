@@ -8,3 +8,8 @@ response = client.responses.create(
 )
 
 print(response.output_text)
+
+for i in range(1, 6):
+    print(i)
+
+color
